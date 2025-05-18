@@ -117,58 +117,84 @@
   body {
     overflow-x: hidden;
   } 
-  @media (max-width: 600px) {
-    .hero-text {
-      text-align: center;
-      max-width: 100%;
-      margin: 0 auto;
-    }
-  
-    .hero-text h1 {
-      font-size: 24px !important;
-      line-height: 1.3;
-      word-break: keep-all;
-      white-space: normal;
-      hyphens: auto;
-    }
-  
-    .hero-text h1 br {
-      display: none;
-    }
-  
-    .hero-text .subtitle,
-    .hero-text .description {
-      font-size: 14px;
-      text-align: center;
-    }
-  
-    .btn {
-      display: block;
-      margin: 20px auto 0;
-      font-size: 14px;
-      padding: 8px 16px;
-    }
-  
-    .hero {
-      padding: 30px 20px;
-      flex-direction: column;
-    }
-  
-    .hero-image {
-      max-width: 100%;
-      margin-top: 20px;
-    }
+ @media (max-width: 600px) {
+  /* Navbar compatta */
+  .w3-bar {
+    padding: 8px 4px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
   }
 
+  .w3-bar a {
+    font-size: 12px;
+    padding: 6px 4px;
+  }
+
+  /* Nascondi solo il logo nella navbar */
+  .w3-bar img {
+    display: none !important;
+  }
+
+  /* Hero section mobile: testo centrato e adattato */
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    padding: 40px 20px;
+  }
+
+  .hero-text {
+    max-width: 100%;
+    flex: none;
+  }
+
+  .hero-text h1 {
+    font-size: 38px;
+    word-break: break-word;
+  }
+
+  .hero-text .subtitle,
+  .hero-text .description {
+    font-size: 14px;
+  }
+
+  .btn {
+    display: inline-block;
+    margin: 20px auto 0;
+  }
+
+  .hero-image {
+    max-width: 100%;
+    margin-top: 20px;
+  }
+
+  .hero-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  /* Footer padding e testo centrato */
+  #contattaci .w3-row-padding {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  #contattaci div[style*="max-width: 60%"] {
+    max-width: 90% !important;
+    margin-top: 100px;
+  }
+
+  #contattaci img {
+    height: auto;
+    max-height: 300px;
+    bottom: 0;
+  }
+}
 
 
-
-
-
-
-
-
-    
 
       .hero-image {
         margin-top: 30px;
