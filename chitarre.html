@@ -7,6 +7,62 @@
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet" />
   <style>
+  @media (max-width: 600px) {
+    .w3-bar {
+      padding: 4px 8px;
+      height: auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .w3-bar a {
+      font-size: 11px;
+      padding: 6px 4px;
+    }
+
+    .w3-bar img {
+      display: none !important;
+    }
+
+
+    .hero-text {
+      text-align: center;
+      max-width: 100%;
+      margin: 40px;
+    }
+
+    .hero-text h1 {
+      font-size: 30px !important;
+      line-height: 1.2;
+      word-break: break-word;
+    }
+
+    .hero-text .subtitle,
+    .hero-text .description {
+      font-size: 14px;
+      text-align: center;
+    }
+
+    .btn {
+      display: block;
+      margin: px auto 0;
+      font-size: 14px;
+      padding: 8px 16px;
+    }
+
+    .hero {
+      padding: 30px 20px;
+      flex-direction: column;
+    }
+
+    .hero-image {
+      max-width: 100%;
+      margin-top: 20px;
+    }
+  }
+
     body, h1, h2, h3, h4, h5, h6, p, a, button, input {
       font-family: -apple-system, BlinkMacSystemFont, "San Francisco", "Poppins", Helvetica, Arial, sans-serif;
     }
@@ -71,7 +127,7 @@
       <a href="index.html" class="transition-link">
         <img style="width:10%;" src="logo0.png" alt="Logo" />
       </a>
-      <div class="w3-right w3-hide-small">
+      <div class="w3-right w3-right">
         <a href="index.html" class="w3-bar-item w3-button transition-link">Home</a>
         <a href="bassi.html" class="w3-bar-item w3-button transition-link">Bassi</a>
         <a href="tastiere.html" class="w3-bar-item w3-button transition-link">Tastiere</a>
