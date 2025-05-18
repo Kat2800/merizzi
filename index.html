@@ -119,13 +119,27 @@
   } 
 
   @media (max-width: 768px) {
-    img {
-      display: none !important;
+    .w3-bar a {
+      font-size: 12px;
+      padding: 8px 4px;
     }
-    .hero-text {
-      text-align: justify;
-      margin: auto;
-      max-width: 90%;
+
+    .w3-bar img {
+      width: 60px !important;
+    }
+
+    .w3-bar {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .w3-bar .w3-right {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      width: 100%;
     }
   }
 
@@ -166,7 +180,7 @@ document.addEventListener("DOMContentLoaded", function () {
       <a href="#home">
         <img style="width:10%;" src="logo0.png" alt="Logo">
       </a>
-      <div class="w3-right w3-hide-small">
+      <div class="w3-right w3-right">
         <a href="bassi.html" class="w3-bar-item w3-button transition-link">Bassi</a>
         <a href="chitarre.html" class="w3-bar-item w3-button transition-link">Chitarre</a>
         <a href="tastiere.html" class="w3-bar-item w3-button transition-link">Tastiere</a>
