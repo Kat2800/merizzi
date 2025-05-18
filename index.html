@@ -119,49 +119,32 @@
   } 
 
   @media (max-width: 600px) {
-    .hero-text {
-      text-align: center;
-      max-width: 100%;
-      margin: 0 auto;
+    .w3-bar a {
+      font-size: 12px;
+      padding: 8px 4px;
     }
-  
-    .hero-text h1 {
-      font-size: 24px !important;
-      line-height: 1.3;
-      word-break: keep-all;
-      white-space: normal;
-      hyphens: auto;
+
+    .w3-bar img {
+      display: none !important;
     }
-  
-    .hero-text h1 br {
-      display: none;
+    img {
+      display: none !important;
     }
-  
-    .hero-text .subtitle,
-    .hero-text .description {
-      font-size: 14px;
-      text-align: center;
+
+    .w3-bar {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
     }
-  
-    .btn {
-      display: block;
-      margin: 20px auto 0;
-      font-size: 14px;
-      padding: 8px 16px;
-    }
-  
-    .hero {
-      padding: 30px 20px;
-      flex-direction: column;
-    }
-  
-    .hero-image {
-      max-width: 100%;
-      margin-top: 20px;
+
+    .w3-bar .w3-right {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      width: 100%;
     }
   }
-
-
 
 
 
@@ -214,7 +197,7 @@ document.addEventListener("DOMContentLoaded", function () {
   <section class="hero" id="home">
     <div class="hero-text">
       <p class="subtitle">Scritta 1</p>
-      <h1 style="font-weight: 600;">Salotto Musicale<br>Merizzi</h1>
+      <h1 style="font-weight: 600; font-size: 80px;">Salotto Musicale<br>Merizzi</h1>
       <p class="description">Chitarre dal 2006</p>
       <a href="#" class="btn">Learn More →</a>
 
