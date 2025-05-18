@@ -119,25 +119,22 @@
   } 
 
   @media (max-width: 600px) {
+    .w3-bar img {
+      display: none !important; /* nasconde solo il logo */
+    }
+  
     .w3-bar a {
       font-size: 12px;
       padding: 8px 4px;
     }
-
-    .w3-bar img {
-      display: none !important;
-    }
-    img {
-      display: none !important;
-    }
-
+  
     .w3-bar {
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
       align-items: center;
     }
-
+  
     .w3-bar .w3-right {
       display: flex;
       flex-wrap: wrap;
@@ -145,6 +142,7 @@
       width: 100%;
     }
   }
+
 
 
 
