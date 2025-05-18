@@ -119,30 +119,28 @@
   } 
 
   @media (max-width: 600px) {
-    .w3-bar img {
-      display: none !important; /* nasconde solo il logo */
+    .hero {
+      flex-direction: column;
+      text-align: center;
     }
   
-    .w3-bar a {
-      font-size: 12px;
-      padding: 8px 4px;
+    .hero-text, .hero-image {
+      flex: 1 1 100%;
+      max-width: 100%;
     }
   
-    .w3-bar {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
-      align-items: center;
+    .hero-text h1 {
+      font-size: 36px;
     }
   
-    .w3-bar .w3-right {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      width: 100%;
+    .hero-text .description {
+      font-size: 16px;
+    }
+  
+    .btn {
+      margin: 20px auto;
     }
   }
-
 
 
 
