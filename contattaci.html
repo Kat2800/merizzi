@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    .hero-image {
+      flex: 1 1 50%;
+      display: flex;
+      justify-content: center;
+      align-items: left;
+      max-width: 40%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      letter-spacing: 2px;
+    }
+    .w3-bar {
+      letter-spacing: 4px;
+    }
+    body.fade-out {
+      opacity: 0;
+      transition: opacity 0.4s ease-out;
+    }
+    .w3-bar .w3-bar-item {
+      font-family: 'Poppins', sans-serif;
+      font-size: 1rem;
+      font-weight: 400;
+      letter-spacing: 4px;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f5f5;;
+      color: #000;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 60px 20px;
+    }
+    .section-title {
+      text-align: center;
+      margin-bottom: 60px;
+    }
+    .section-title small {
+      color: #555;
+      letter-spacing: 2px;
+      font-size: 0.8rem;
+    }
+    .section-title h1 {
+      font-size: 3rem;
+      margin: 10px 0 0;
+    }
+    .contact-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 40px;
+    }
+    .map, .info {
+      flex: 1;
+      min-width: 300px;
+    }
+    .info h3 {
+      font-size: 0.9rem;
+      letter-spacing: 2px;
+      margin-bottom: 10px;
+      color: #666;
+    }
+    .info p {
+      font-size: 1.3rem;
+      margin: 5px 0;
+    }
+    .info hr {
+      margin: 20px 0;
+      border: none;
+      border-top: 1px solid #ccc;
+    }
+    .socials a {
+      font-size: 1.5rem;
+      margin-right: 15px;
+      text-decoration: none;
+      color: #000;
+    }
+    .form-section {
+      margin-top: 80px;
+    }
+    .form-section h2 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+    }
+    .form-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .form-grid input, .form-grid textarea {
+      width: 100%;
+      padding: 12px;
+      font-size: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    .form-grid .half {
+      flex: 1;
+      min-width: 300px;
+    }
+    .form-grid textarea {
+      height: 150px;
+      resize: vertical;
+    }
+
+  </style>
+</head>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  function transitionToPage(url) {
+    document.body.classList.add("fade-out");
+    setTimeout(function () {
+      window.location.href = url;
+    }, 500);
+  }
+
+  document.querySelectorAll('.transition-link').forEach(function (link) {
+    link.addEventListener('click', function (e) {
+      e.preventDefault();
+      const targetUrl = link.getAttribute('href');
+      transitionToPage(targetUrl);
+    });
+  });
+});
+</script>
+  <!-- Navbar -->
+    <div class="w3-top">
+      <div class="w3-bar w3-white w3-padding w3-card">
+          <a href="index.html" class="transition-link">
+          <img style="width:10%;" src="logo0.png" alt="Logo">
+        </a>
+        <div class="w3-right w3-hide-small">
+        <a href="index.html" class="w3-bar-item w3-button transition-link">Home</a>
+        <a href="bassi.html" class="w3-bar-item w3-button transition-link">Bassi</a>
+        <a href="chitarre.html" class="w3-bar-item w3-button transition-link">Chitarre</a>
+        <a href="tastiere.html" class="w3-bar-item w3-button transition-link">Attrezzature</a>
+        <a href="contattaci.html" class="w3-bar-item w3-button transition-link">Tastiere</a>
+        </div>
+      </div>
+    </div>
+  
+  <div class="container">
+    <div class="section-title">
+      <small>Resta connesso</small>
+      <h1>Vieni a trovarci!</h1>
+    </div>
+    <div class="contact-grid">
+      <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2818.9955650824354!2d7.630066776702349!3d45.04531186128946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47886cd3eaa246f1%3A0x3d5c130ecfe77a4!2sSalotto%20Musicale%20Merizzi!5e0!3m2!1sit!2sit!4v1747314310897!5m2!1sit!2sit" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        
+      </div>
+      <div class="info">
+        <h3></h3>
+        <h1 style="font-size: 4rem; font-weight: bold; margin: 20px 0;">Via Filadelfia 237/8 – Torino</h1>
+        <hr style="height: 2px; background-color: #0F0F0F; border: none; width: 100%;">
+        <p>+39 011-18674569</p>
+        <p>s.musicalemerizzi@libero.it</p>
+        <hr style="height: 2px; background-color: #0F0F0F; border: none; width: 100%;">
+        <h3>SEGUICI SUI SOCIAL</h3>
+        <div class="socials">
+        <a href="https://www.instagram.com/salottomusicale?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
+         <i class="fab fa-instagram"></i>
+        </a>
+        </div>
+      </div>
+    </div>
+    <section id="contattaci" class="w3-container w3-padding-64" style="position: relative; background-color: #f5f5f5; min-height: 750px;">
+      <div style="max-width: 100%; z-index: 2; position: right; margin-top: 50px; font-size: 1.25rem;">
+        <div class="w3-row-padding" style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 2rem;">
+
+          <!-- Colonna 1 -->
+          <div style="flex: 1; min-width: 100px;">
+            <h4 style="font-size: 2rem; margin-bottom: 0.5rem;">Chi siamo</h4>
+            <p>chi siamo</p>
+          </div>
+
+          <!-- Colonna 2 -->
+          <div style="flex: 2; min-width: 100px;">
+            <h4 style="font-size: 2rem; margin-bottom: 0.5rem;">Prodotti</h4>
+            <p>Chitarre</p>
+            <p>Tastiere</p>
+            <p>Bassi</p>
+            <p>Attrezzature</p>
+            <p>Lezioni individuali</p>
+          </div>
+
+          <!-- Colonna 3 -->
+          <div style="flex: 1; min-width: 100px;">
+            <h4 style="font-size: 2rem; margin-bottom: 0.5rem;">Contatti</h4>
+            <p>Via ...</p>
+            <p>+39 0123 1234 1234</p>
+            <p>email@emial.com</p>
+            <p>IVA: IT1298371279</p>
+          </div>
+        </div>
+
+        <!-- Copyright -->
+        <div class="w3-center" style="margin-top: 2rem;">
+          <p style="font-size: 1rem;">Website by Riccardo Filieri
+            <br>
+            @rickyfili10 on instagram
+          </p>
+        </div>
+      </div>
+
+    </section>
+
+</body>
+</html>

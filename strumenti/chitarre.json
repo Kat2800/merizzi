@@ -1,0 +1,16 @@
+[
+  {
+    "title": "Ibanez",
+    "subtitle": "Classico suono",
+    "description": "Chitarra perfetta per studio e live",
+    "price": "€1.000",
+    "image": "chitarra0.jpeg"
+  },
+  {
+    "title": "Ibanez 2",
+    "subtitle": "Velocità e precisione",
+    "description": "Ideale per rock e metal.\nCorpo leggero e sottile.",
+    "price": "€850",
+    "image": "chitarra0.jpeg"
+  }
+]

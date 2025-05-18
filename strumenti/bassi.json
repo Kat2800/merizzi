@@ -1,0 +1,16 @@
+[
+  {
+    "title": "Fender Jazz Bass",
+    "subtitle": "Classico suono vintage",
+    "description": "Un basso perfetto per il funk e il jazz.\nMolto versatile.",
+    "price": "€1.200",
+    "image": "basso0.jpeg"
+  },
+  {
+    "title": "Ibanez SR500",
+    "subtitle": "Velocità e precisione",
+    "description": "Ideale per rock e metal.\nCorpo leggero e sottile.",
+    "price": "€850",
+    "image": "basso1.jpeg"
+  }
+]

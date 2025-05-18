@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Music Store - Merizzi</title>
+
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet" />
+
+  <style>
+    body, h1, h2, h3, h4, h5, h6, p, a, button {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    .w3-bar {
+      letter-spacing: 4px;
+    }
+    body.fade-out {
+      opacity: 0;
+      transition: opacity 0.4s ease-out;
+    }
+
+    .btn {
+      background-color: #f5f5f5;
+      color: #f5f5f5;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+      display: inline-block;
+      margin-top: 20px;
+    }
+
+    .btn:hover {
+      background-color: #333;
+    }
+
+    .hero {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center; /* changed from space-between */
+      align-items: center;
+      padding: 60px 40px; /* ridotto da 80px */
+      background-color: #f5f5f5;
+      /* gap: 10px; /* ridotto da 40px */
+    }
+
+
+    .hero-text {
+      flex: 1 1 40%; /* changed from 45% */
+      max-width: 30%; /* changed from 45% */
+    }
+
+    .hero-text .subtitle {
+      color: #888;
+      font-size: 14px;
+      letter-spacing: 2px;
+      margin-bottom: 10px;
+    }
+
+    .hero-text h1 {
+      font-size: 42px;
+      line-height: 1.2;
+      margin-bottom: 20px;
+    }
+
+    .hero-text .description {
+      font-size: 16px;
+      color: #444;
+    }
+
+    .video-thumb {
+      position: relative;
+      display: inline-block;
+      margin-top: 20px;
+    }
+
+    .video-thumb img {
+      width: 120px;
+      height: auto;
+      border-radius: 4px;
+      filter: grayscale(100%);
+    }
+
+    .play-button {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 20px;
+      background: rgba(0, 0, 0, 0.6);
+      color: white;
+      border-radius: 50%;
+      padding: 8px 12px;
+    }
+
+    .hero-image {
+      flex: 1 1 50%; /* changed from 45% */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      max-width: 40%; /* added to match hero-text */
+    }
+
+    .hero-image img {
+      width: 100%;
+      max-width: 2000px;
+      height: auto;
+    }
+    /* Removed the combined .hero-text, .hero-image rule with 45% flex and max-width */
+  body {
+    overflow-x: hidden;
+  } 
+
+  @media (max-width: 768px) {
+    img {
+      display: none !important;
+    }
+    .hero-text {
+      text-align: justify;
+      margin: auto;
+      max-width: 90%;
+    }
+  }
+
+
+
+    
+
+      .hero-image {
+        margin-top: 30px;
+      }
+    
+  </style>
+</head>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  function transitionToPage(url) {
+    document.body.classList.add("fade-out");
+    setTimeout(function () {
+      window.location.href = url;
+    }, 500);
+  }
+
+  document.querySelectorAll('.transition-link').forEach(function (link) {
+    link.addEventListener('click', function (e) {
+      e.preventDefault();
+      const targetUrl = link.getAttribute('href');
+      transitionToPage(targetUrl);
+    });
+  });
+});
+</script>
+
+<body>
+
+  <!-- Navbar -->
+  <div class="w3-top">
+    <div class="w3-bar w3-white w3-padding w3-card">
+      <a href="#home">
+        <img style="width:10%;" src="logo0.png" alt="Logo">
+      </a>
+      <div class="w3-right w3-hide-small">
+        <a href="bassi.html" class="w3-bar-item w3-button transition-link">Bassi</a>
+        <a href="chitarre.html" class="w3-bar-item w3-button transition-link">Chitarre</a>
+        <a href="tastiere.html" class="w3-bar-item w3-button transition-link">Tastiere</a>
+        <a href="attrezzature.html" class="w3-bar-item w3-button transition-link">Attrezzature</a>
+        <a href="contattaci.html" class="w3-bar-item w3-button transition-link">Contattaci</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="hero-text">
+      <p class="subtitle">Scritta 1</p>
+      <h1 style="font-weight: 600; font-size: 80px;">Salotto Musicale<br>Merizzi</h1>
+      <p class="description">Chitarre dal 2006</p>
+      <a href="#" class="btn">Learn More →</a>
+
+<!--
+      <div class="video-thumb">
+        <img src="logo.jpg" alt="Artist">
+        <span class="play-button">▶</span>
+        -->
+      </div>
+    </div>
+
+    <div class="hero-image">
+      <img src="enter.png" alt="Guitar">
+    </div>
+  </section>
+
+    <section class="hero" style="gap: 10px;"id="noi">
+      
+      <div class="hero-text">
+        <h1 class="w3-center">Chi siamo?</h1><br>
+        <p class="description w3-center">
+            Chi siete cosa fate etc etc.......
+        </p>
+      </div>
+
+      <div class="hero-image">
+        <img src="noi.png" style="width:100%;" alt="noi" />
+      </div>
+    </section>
+    <section class="hero" id="cosa">
+      <div class="hero-image">
+        <img src="negozio.png" style="width: 100%;" alt="Lakland Cherry Sunburst" />
+      </div>
+      <div class="hero-text">
+        <h1>Cosa facciamo</h1>
+        <p class="description">
+              cosa fate da quando etc etc etc.........................................................................
+        </p>
+
+      </div>
+    </section>
+    <section id="contattaci" class="w3-container w3-padding-64" style="position: relative; background-color: #f5f5f5; min-height: 750px; overflow: hidden;">
+      <div style="max-width: 60%; z-index: 2; position: relative; margin-top: 200px; font-size: 1.25rem;">
+        <div class="w3-row-padding" style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 2rem;">
+
+          <!-- Colonna 1 -->
+          <div style="flex: 1; min-width: 200px;">
+            <h4 style="font-size: 2rem; margin-bottom: 0.5rem;">Chi siamo</h4>
+            <p>chi siamo</p>
+          </div>
+
+          <!-- Colonna 2 -->
+          <div style="flex: 2; min-width: 200px;">
+            <h4 style="font-size: 2rem; margin-bottom: 0.5rem;">Prodotti</h4>
+            <p>Chitarre</p>
+            <p>Bassi</p>
+            <p>Tastiere</p>
+            <p>Attrezzature</p>
+            <p>Lezioni individuali</p>
+          </div>
+
+          <!-- Colonna 3 -->
+          <div style="flex: 1; min-width: 200px;">
+            <h4 style="font-size: 2rem; margin-bottom: 0.5rem;">Contatti</h4>
+            <p>Via Filadelfia 237/8 – Torino</p>
+            <p>+39 011-18674569</p>
+            <p>s.musicalemerizzi@libero.it</p>
+            <p>IVA: IT1298371279</p>
+          </div>
+        </div>
+
+        <!-- Copyright -->
+        <div class="w3-center" style="margin-top: 2rem;">
+          <p style="font-size: 1rem;">Website by Riccardo Filieri
+            <br>
+            @rickyfili10 on instagram
+          </p>
+        </div>
+      </div>
+
+      <img src="end.png" alt="Chitarra piegata" style="
+        position: absolute;
+        right: 0;
+        bottom: 40px;
+        height: 800px;
+        z-index: 1;
+        pointer-events: none;
+      ">
+    </section>
+
+
+
+
+
+</body>
+</html>
