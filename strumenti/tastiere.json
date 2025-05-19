@@ -1,16 +1,9 @@
 [
-  {
-    "title": "Tastiera",
-    "subtitle": "..........................",
-    "description": "....................",
-    "price": "€100",
-    "image": "tastiera.png"
-  },
-  {
-    "title": "Tastiera",
-    "subtitle": "..........................",
-    "description": "....................",
-    "price": "€5000",
-    "image": "tastiera.png"
-  }
+{
+  "title": "Medeli Arrange AKX10",
+  "subtitle": "Workstation digitale pro, creatività senza limiti",
+  "description": "La Medeli AKX10 è una arranger workstation professionale della Pro Series, pensata per musicisti, insegnanti, performer e home studio. 🎹🎶\n\n✅ 61 tasti con risposta dinamica\n✅ Display LCD TFT da 7\" touchscreen a colori\n✅ 1100 suoni, 280 stili musicali e 90 brani inclusi\n✅ 512 memorie utente e 180 Phrase Pad\n✅ 4 parti tastiera con Harmony, Arpeggi e Slicer\n✅ Registratore MIDI a 16 tracce + registratore audio WAV/MP3\n✅ Effetti DSP avanzati, EQ, compressori, vocoder e molto altro\n✅ Connessioni complete: USB, MIDI, AUX, Mic In, Bluetooth 4.0\n✅ Joystick, manopole, pedali e controlli assegnabili\n✅ Supporta USB fino a 256 GB per playback e salvataggi\n✅ Mixer integrato per un controllo totale\n✅ Polifonia a 256 voci per performance senza limiti\n\n📦 Una workstation potente e intuitiva, perfetta per creare, suonare e registrare ovunque.",
+  "price": "€899",
+  "image": "tastiera.png"
+}
 ]

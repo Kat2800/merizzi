@@ -1,16 +1,17 @@
 [
   {
-    "title": "Ibanez",
-    "subtitle": "Classico suono",
-    "description": "Chitarra perfetta per studio e live",
+    "title": "Ibanez GRX70QA-TVT Transparent Violet",
+    "subtitle": "Potenza e Stile in un Solo Strumento",
+    "description": "Lasciati conquistare dal look mozzafiato e dalla versatilità sonora della Ibanez GRX70QA-TVT in finitura Transparent Violet Sunburst. Questa chitarra unisce un'estetica accattivante a prestazioni da vera rockstar!\n\n✨ Corpo in pioppo, leggero e bilanciato\n✨ Top in Quilted Maple Furnier dai riflessi viola ipnotici\n✨ Manico in acero (costruzione avvitata – profilo GRX)\n✨ Tastiera in jatoba con 22 tasti\n✨ Scala da 25,5\" (648 mm) per una tensione ottimale\n✨ 6 corde per dominare ogni riff\n\nCon la sua estetica unica e la qualità costruttiva firmata Ibanez, la GRX70QA-TVT è perfetta per chi cerca uno strumento affidabile, grintoso e d’impatto.",
     "price": "€1.000",
     "image": "chitarra0.jpeg"
   },
   {
-    "title": "Ibanez 2",
-    "subtitle": "Velocità e precisione",
-    "description": "Ideale per rock e metal.\nCorpo leggero e sottile.",
-    "price": "€850",
-    "image": "chitarra0.jpeg"
+  "title": "Aria STG-57-CA Red",
+  "subtitle": "Vintage vibe, suono moderno",
+  "description": "La Aria STG-57-CA in finitura rossa unisce look vintage e performance moderne! 🎸\n\n🟤 Corpo in ontano per un suono bilanciato e brillante\n🟤 Manico e tastiera in acero 1 pezzo, 22 tasti per una suonabilità fluida\n🟤 Scala da 648 mm (25-1/2\") per un’action reattiva e precisa\n🟤 3 pickup single coil Alnico V per toni cristallini e dinamici\n🟤 Controlli: 1 volume, 2 toni e selettore PU per totale versatilità sonora\n🟤 Hardware cromato per un tocco elegante\n\nPerfetta per chi cerca un suono classico con affidabilità moderna. Codice prodotto: STG-57-CA",
+  "price": "€499",
+  "image": "chitarra1.png"
   }
+
 ]

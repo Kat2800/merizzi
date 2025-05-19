@@ -1,16 +1,17 @@
 [
   {
-    "title": "Fender Jazz Bass",
-    "subtitle": "Classico suono vintage",
-    "description": "Un basso perfetto per il funk e il jazz.\nMolto versatile.",
-    "price": "€1.200",
+    "title": "Lakland Skyline 44-02 Deluxe – Cherry Sunburst",
+    "subtitle": "Precisione americana, stile inconfondibile",
+    "description": "Il Lakland Skyline 44-02 Deluxe è un basso elettrico 4 corde che unisce eleganza e versatilità sonora. 🎸\n\n🟡 Corpo in frassino con top in acero quilted per un’estetica premium\n🟡 Manico in acero roasted per stabilità e velocità\n🟡 Tastiera in palissandro con intarsi dot: naturale e comoda\n🟡 Scala da 34\" per un perfetto equilibrio tra comfort e sustain\n🟡 Pickups Lakland MM + J abbinati al preamp attivo LH3 con bypass\n🟡 Controlli: volume, blend, bassi, medi, alti + switch a 3 posizioni\n🟡 Ponte Lakland Dual Access: corde passanti o al ponte\n🟡 Meccaniche Hipshot Ultralites: leggerezza e precisione\n🟡 Colore Cherry Sunburst satinato: classe e presenza sul palco\n\nUn basso pronto per ogni palco e ogni genere musicale!",
+    "price": "€1.699",
     "image": "basso0.jpeg"
   },
   {
-    "title": "Ibanez SR500",
-    "subtitle": "Velocità e precisione",
-    "description": "Ideale per rock e metal.\nCorpo leggero e sottile.",
-    "price": "€850",
-    "image": "basso1.jpeg"
+    "title": "Warwick RockBass INFINITY 4",
+    "subtitle": "Eleganza e potenza in un solo basso",
+    "description": "Scopri un basso che unisce stile raffinato e prestazioni professionali! Il Warwick RockBass INFINITY 4 è uno strumento progettato per chi cerca versatilità e carattere.\n\n🔹 Corpo in Red Alder con top in Acero Fiammato per un look d’impatto\n🔹 Manico multistrato in Acero/Ekanga per stabilità e sustain\n🔹 Tastiera in Wenge per un feel naturale e definito\n🔹 Pickup passivi MEC J/MM-Style con elettronica attiva a 2 bande\n🔹 Controlli avanzati per scolpire ogni sfumatura del tuo suono\n🔹 Ponte Warwick 2 pezzi e capotasto Just a Nut III Tedur per intonazione perfetta\n🔹 Finitura lucida e hardware cromato per un’estetica sofisticata\n\nIl compagno ideale per il palco, la sala prove o lo studio.",
+    "price": "€1.250",
+    "image": "basso1.png"
   }
+
 ]
